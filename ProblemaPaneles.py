@@ -14,7 +14,7 @@ def calculate_panels (height_panel, width_panel, height_roof, width_roof):
     # Calcular la cantidad de paneles que caben en el techo
     total_panels = (height_roof / height_panel) * (width_roof / width_panel)
     # Devolver el máximo entre las dos configuraciones1
-    return total_panels
+    return int(total_panels)
 
 #Si un lado del techo es menor a un lado del panel entonces no caben paneles
 if (height_roof >= height_panel and width_roof >= width_panel) or (height_roof >= width_panel and width_roof >= height_panel):
