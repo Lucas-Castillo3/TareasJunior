@@ -8,3 +8,8 @@ De cumplirse la condición se hace la llamada a la funcion "calculate_panels" (t
 caen considerando los lados como float, en caso de que me de 7.5 por ejemplo.
 
 Luego retorno y muestro solo el valor entero.
+
+
+Hice la opción 1 y me constó bastante más, cerca de una hora, me demoré en el papel y luego los resultados del codigo eran distintos a los que calculé en papel,
+finalmente encontré mi error y fue en la linea de codigo en la que calculo el ancho disponible, ya que olvidé que i comienza en 0 y que las divisiones no se aproximan.
+Ahora, está bien o mi logica y codigos están equivocados.
